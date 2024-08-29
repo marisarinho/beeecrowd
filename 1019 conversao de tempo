@@ -1,0 +1,8 @@
+n=int(input(''))
+hora=n//3600
+resto=n%3600
+minu=resto//60
+resto2=resto%60
+seg=resto2
+
+print(f'{hora:.0f}:{minu:.0f}:{seg:.0f}')
