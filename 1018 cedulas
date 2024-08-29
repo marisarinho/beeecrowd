@@ -1,0 +1,23 @@
+n=int(input(''))
+cem=n//100       
+resto=n%100      
+cinq=resto//50   
+resto2=resto%50      
+vinte=resto2//20  
+resto3=resto2%20       
+dez=resto3//10   
+resto4=resto3%10      
+cinco=resto4//5  
+resto5=resto4%5       
+dois=resto5//2   
+resto6=resto5%2       
+um=resto6//1     
+
+print(n)
+print(f'{cem} nota(s) de R$ 100,00')
+print(f'{cinq} nota(s) de R$ 50,00')
+print(f'{vinte} nota(s) de R$ 20,00')
+print(f'{dez} nota(s) de R$ 10,00')
+print(f'{cinco} nota(s) de R$ 5,00')
+print(f'{dois} nota(s) de R$ 2,00')
+print(f'{um} nota(s) de R$ 1,00')
